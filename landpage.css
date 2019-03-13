@@ -1,0 +1,41 @@
+button{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    /* float: right; */
+    width: 162px;
+    height: 80px;
+    color: #796d59;
+    font-size: 20px;
+    /* margin-right: 150px;
+    margin-top: 0px; */
+    border: 5px #928f8a;
+    background-color:rgba(255, 255, 255, 0.596);
+    border-style: groove;
+}
+h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 80px;
+    margin-left: 250px;
+    margin-top: 20px;
+    width: auto;
+    color: #796d59;
+}
+ol{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 20px;
+    width: auto;
+    color:#796d59;
+}
+body{
+    background-color: rgb(252, 252, 221);
+}
+img{
+   
+
+    opacity:0.5;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+
+} 

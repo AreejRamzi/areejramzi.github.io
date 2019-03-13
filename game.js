@@ -4,6 +4,8 @@ var turn = "x";
 var playerX = 0;
 var playerO = 0;
 var gameInPlay = false;
+var clickNum = 0;
+var winner1= false;
 
 
 $(".box").on("click", function (event) {
@@ -20,7 +22,6 @@ $(".box").on("click", function (event) {
                 });
                 
                 $(event.target).addClass("x");
-                // $(event.target).off("click");
                 turn = "o";
 
             }
@@ -29,8 +30,6 @@ $(".box").on("click", function (event) {
                     "background-image": "url('./Jass.png')",
                     "background-size": "157px 147px"
                 });
-               
-                // $(event.target).off("click");
                 $(event.target).addClass("o");
                 turn = "x";
             }
@@ -47,6 +46,7 @@ $(".box").on("click", function (event) {
         console.log(playerO)
         console.log(playerX)
         $('#playerA').text(playerX);
+        clickNum++;
         gameInPlay = true
         reset()
 
